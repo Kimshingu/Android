@@ -26,8 +26,7 @@ public class MainActivity extends AppCompatActivity {
         // setContentView() 메소드가 처리된 후에는 XML안에 정의한
         // 뷰를 객체로써 접근하여 사용할 수 있다.
 
-        // id가 button2인 뷰 객체의 참조를 획득하여
-        // 해당 뷰에 이벤트 리스너를 장착한다.
+        // id가 button인 뷰 객체의 참조를 획득하여 해당 뷰에 이벤트 리스너를 장착한다.
         button = findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override

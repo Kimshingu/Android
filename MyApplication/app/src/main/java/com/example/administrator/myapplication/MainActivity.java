@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public  void onClickNext(View view){
-        // 다음 화면을 정보를 인텐트 객체에 담는다.
+        // 다음 화면의 정보를 인텐트 객체에 담는다.
         Intent intent = new Intent(this, Main2Activity.class);
         intent.putExtra("key", 100);
         // 다음 화면을 표시한다.
